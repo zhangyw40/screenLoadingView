@@ -16,6 +16,7 @@
 		40BCA4E524C5440100783146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40BCA4E324C5440100783146 /* LaunchScreen.storyboard */; };
 		40BCA4E824C5440100783146 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BCA4E724C5440100783146 /* main.m */; };
 		40BCA4F124C5452C00783146 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 40BCA4F024C5452C00783146 /* config.json */; };
+		40BCA4F424C579E600783146 /* ScreenLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BCA4F324C579E600783146 /* ScreenLoadingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,8 @@
 		40BCA4E624C5440100783146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40BCA4E724C5440100783146 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40BCA4F024C5452C00783146 /* config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		40BCA4F224C579E600783146 /* ScreenLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenLoadingView.h; sourceTree = "<group>"; };
+		40BCA4F324C579E600783146 /* ScreenLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenLoadingView.m; sourceTree = "<group>"; };
 		4E2EB2A64B76EAA87C555066 /* Pods-screenLoadingVIew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-screenLoadingVIew.debug.xcconfig"; path = "Target Support Files/Pods-screenLoadingVIew/Pods-screenLoadingVIew.debug.xcconfig"; sourceTree = "<group>"; };
 		96EBB74F6D374A60134C9B6B /* libPods-screenLoadingVIew.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-screenLoadingVIew.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -76,6 +79,8 @@
 				40BCA4D924C5440000783146 /* SceneDelegate.m */,
 				40BCA4DB24C5440000783146 /* ViewController.h */,
 				40BCA4DC24C5440000783146 /* ViewController.m */,
+				40BCA4F224C579E600783146 /* ScreenLoadingView.h */,
+				40BCA4F324C579E600783146 /* ScreenLoadingView.m */,
 				40BCA4F024C5452C00783146 /* config.json */,
 				40BCA4DE24C5440000783146 /* Main.storyboard */,
 				40BCA4E124C5440100783146 /* Assets.xcassets */,
@@ -92,7 +97,6 @@
 				4E2EB2A64B76EAA87C555066 /* Pods-screenLoadingVIew.debug.xcconfig */,
 				06F0A03A3C292FB821E12624 /* Pods-screenLoadingVIew.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -205,6 +209,7 @@
 				40BCA4D724C5440000783146 /* AppDelegate.m in Sources */,
 				40BCA4E824C5440100783146 /* main.m in Sources */,
 				40BCA4DA24C5440000783146 /* SceneDelegate.m in Sources */,
+				40BCA4F424C579E600783146 /* ScreenLoadingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
